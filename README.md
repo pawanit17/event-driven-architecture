@@ -9,3 +9,7 @@
 - https://aws.amazon.com/blogs/compute/building-an-event-driven-application-with-amazon-eventbridge/
 - https://www.youtube.com/watch?v=ksRCq0BJef8
 - https://www.youtube.com/watch?v=XolV-pKjVyA
+
+- Event Sourcing
+- CQRS
+- SAGA
