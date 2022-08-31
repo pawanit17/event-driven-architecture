@@ -10,6 +10,16 @@
 - https://www.youtube.com/watch?v=ksRCq0BJef8
 - https://www.youtube.com/watch?v=XolV-pKjVyA
 
+# High Level Introduction
+- A way of building a distributed system where different decoupled components can interact with eachother based on Events.
+- Producers, Routes/MessageQueue and Consumers are the main components involved.
+- For AWS, we can use either EventBridge or Amazon SNS to realize an architecture.
+- Because this is a PUSH architecture and not a PULL/POLL architecture, unnecessary CPU cycles won't get wasted by the consumers to fetch messages from the producers via the route.
+- Ex: ![image](https://user-images.githubusercontent.com/42272776/187732393-24b63f36-0fc1-4587-95b3-2dd391eb3165.png)
+
+
+
+
 - Event Sourcing
 - CQRS
 - SAGA
